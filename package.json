@@ -1,0 +1,72 @@
+{
+  "name": "pyout",
+  "displayName": "PyOut",
+  "description": "Inline code execution for Python with live output and AI features.",
+  "version": "0.2.0",
+  "publisher": "Brandstorm",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Machine Learning",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:python"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pyout.selectTheme",
+        "title": "PyOut: Select Output Theme"
+      },
+      {
+        "command": "pyout.setApiKey",
+        "title": "PyOut: Set API Key"
+      }
+    ],
+    "configuration": {
+      "title": "PyOut",
+      "properties": {
+        "pyout.theme": {
+          "type": "string",
+          "default": "Stardust",
+          "description": "Select the color theme for the inline execution output.",
+          "enum": [
+            "Cyber Glow",
+            "Sunset Drive",
+            "Forest Spirit",
+            "Synthwave",
+            "Quantum",
+            "Stardust"
+          ]
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.8",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.82.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.11.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "node-fetch": "^2.7.0"
+  }
+}
