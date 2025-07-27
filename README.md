@@ -9,20 +9,23 @@
 
 ---
 
-##  Demo
+## 🎥 Demo
 
-<img src="https://github.com/HarukiDhruv/PyOut-VsCode-Extension/assets/demo.gif" width="600"/>
+Watch the full demo [here](./assets/demo.mp4) or [download it](./assets/demo.mp4).
+
+![Click to play](https://img.shields.io/badge/Watch-Demo-blue?logo=playstation)
+
 
 ---
 
 ##  Key Features
 
 | Feature                   | Description                                                                 |
-|---------------------------|----------------------------------------------------------------------------- |
-|  **Inline Output**        | Displays Python output beside the executed line using code lens or overlay    |
-|  **Gemini Integration**   | Get AI-powered summaries and explanations *(optional)*                         |
-|  **Easter Egg Trigger**   | Type fun keywords to launch browser-based games                                |             |
-|  **Customizable UI**      | Future updates will allow output box styling and themes                       |
+|---------------------------|-----------------------------------------------------------------------------|
+|  **Inline Output**        | Displays Python output beside the executed line using code lens or overlay  |
+|  **Gemini Integration**   | Get AI-powered summaries and explanations *(optional)*                      |
+|  **Easter Egg Trigger**   | Type fun keywords to launch browser-based games                             |             
+|  **Customizable UI**      | Future updates will allow output box styling and themes                     |
 
 ---
 
@@ -71,4 +74,25 @@ git commit -m "Add: Your awesome feature"
 
 # Push and open a PR
 git push origin feat/your-feature
+
+# Let's build the future of developer experience — together.
+
+Let me know if you'd like to add:
+- GIFs or demo videos hosted elsewhere
+- Contribution guidelines (CONTRIBUTING.md)
+- Badges for NPM if you publish
+- “Roadmap” section for features
+
+Would you also like to auto-generate a `CONTRIBUTING.md` or `LICENSE` file?
+
+---
+
+## Hope We are doing some Good Stuff
+
+Thanks for checking out **PyOut** — your support means a lot.
+
+Do Visit:  [@HarukiDhruv](https://github.com/HarukiDhruv) 
+
+Happy Coding! 
+
 
