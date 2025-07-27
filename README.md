@@ -41,27 +41,24 @@ function showInlineOutput(line: number, output: string) {
   const decoration = createInlineTextDecoration(output);
   editor.setDecorations(decorationType, [decoration]);
 }
+```
 
-# Clone the repo
-git clone https://github.com/HarukiDhruv/PyOut-VsCode-Extension.git
+## Clone the repo
+```git clone https://github.com/HarukiDhruv/PyOut-VsCode-Extension.git ```
 
 # Install dependencies
-cd PyOut-VsCode-Extension
-npm install
+```cd PyOut-VsCode-Extension
+ npm install
+```
 
-# Launch in VS Code
-code .
-
-Open Source Contribution
-This project is proudly part of the VS Code Open Source Ecosystem 🌍
+# Open Source Contribution
+This project is proudly part of the VS Code Open Source Ecosystem 
 We built it while learning the internals of the VS Code extension API, TypeScript, and how to extend developer tooling.
 
-🛠 Built by:
-HarukiDhruv @HarukiDhruv
+## Built by:
+Dhruba Hazarika & Ujwal Thakur 
 
-Ujwal @Ujwal
-
- Contributions are welcome!
+## Contributions are welcome!
 
 # Fork & clone
 git clone https://github.com/HarukiDhruv/PyOut-VsCode-Extension.git
