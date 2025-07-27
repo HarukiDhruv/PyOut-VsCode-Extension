@@ -11,7 +11,7 @@
 
 ## 🎥 Demo
 
-Watch the full demo [here](./assets/demo.mp4) or [download it](./assets/demo.mp4).
+Watch the full demo [here](./assets/demo.mp4) or [download it](./assests/demo.mp4).
 
 ![Click to play](https://img.shields.io/badge/Watch-Demo-blue?logo=playstation)
 
